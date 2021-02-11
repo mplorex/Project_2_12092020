@@ -16,6 +16,7 @@ nav {
   }
 nav img {
     float: left;
+    margin-left: -25px;
   }
 nav ul {
     float: right;
