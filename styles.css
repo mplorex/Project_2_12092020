@@ -102,7 +102,7 @@ form input:nth-child(3) {
     border: none;
   }
 .filterbar {
-    margin: 30px 0px;
+    margin: 20px 0px;
   }
 .filterbar h3 {
     margin: auto 0;
@@ -152,7 +152,7 @@ form input:nth-child(3) {
 .info {
     display: flex;
     align-items: center;
-    gap: 10px;
+    margin-bottom: 15px;
   }
 .info span:nth-child(2){
       font-weight:500;
