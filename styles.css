@@ -381,6 +381,7 @@ ul.text {
     flex-wrap: wrap;
     margin: 0;
     height: 120px;
+    position: relative;
   }
   .signup {
     position: absolute;
@@ -394,7 +395,7 @@ ul.text {
     top: 5px;
     right: 10px;
     padding-top: 0px;
-    margin: 14px 0 0 40px;
+    margin: 15px 20px 59px 20px;
   }
   nav ul {
     padding-left: 0px;
@@ -405,11 +406,21 @@ ul.text {
   }
   .accommodationsbtn {
     border-top: none;
-    border-bottom: #0065fc solid 1px;      
+    border-bottom: #0065fc solid 2px; 
+    left: 0px;     
   }
   .activitiesbtn {
-  border-top: none;
-    border-bottom: #f3f3f3 solid 1px;
+    border-top: none;
+    border-bottom: #f3f3f3 solid 2px;
+    right: 0px;
+  }
+  .accommodationsbtn,
+  .activitiesbtn {
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
   }
   .accommodations {
     display: flex;
