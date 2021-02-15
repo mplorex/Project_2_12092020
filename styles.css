@@ -483,6 +483,18 @@ ul.text {
     width: 360px;
     margin-left: 17px;
   }
+  form i:last-child {
+    display: inline;
+    padding: 14px;
+    height: 12px;
+    background-color: #0065fc;
+    margin-left: -10px;
+    color: white;
+    border-radius: 10px;
+  }
+  form input:nth-child(3) {
+    display: none;
+  }
 }
 @media only screen and (min-width: 767px) {
   .mb-sm-0 {
