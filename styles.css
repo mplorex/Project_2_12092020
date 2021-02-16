@@ -325,6 +325,8 @@ i {
 }
 .d-flex {
   display: flex;
+  margin: 11px;
+  margin-top: -3px;
 }
 .flex-direction-column {
   flex-direction: column;
