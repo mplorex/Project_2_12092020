@@ -292,7 +292,7 @@ aside {
   border-radius: 20px;
   display: flex;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
-  border: white solid 3px;
+  border: white solid 4px;
 }
 .popaside {
   margin: 5px 0px 10px 9px;
@@ -445,8 +445,9 @@ ul.text {
   .columns {
     display: flex;
     flex-direction: column;
-    margin: 0px 20px;
+    margin: 0px 9px;
     gap: 15px;
+
   }
   .column {
     width: 350px;
@@ -467,6 +468,9 @@ ul.text {
   }
   .card-bg  {
     margin-bottom: 10px;
+  }
+  .d-flex {
+    margin-left: -10px;
   }
   .col {
     margin-bottom: 40px;
@@ -502,6 +506,13 @@ ul.text {
   }
   form input:nth-child(3) {
     display: none;
+  }
+  .showmore {
+    margin-left: 9px;
+  }
+  .popaside {
+    width: 370px;
+    margin-left: 21px;
   }
 }
 @media only screen and (min-width: 767px) {
