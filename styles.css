@@ -39,7 +39,7 @@ nav ul {
   padding-top: 0px;
 }
 nav ul li {
-  float: left;
+  float: right;
   list-style-type: none;
   padding: 35px 11px 12px 11px;
   margin-left: 50px;
@@ -60,6 +60,9 @@ a {
 }
 .activitiesbtn {
   border-top: #f3f3f3 solid 1px;
+}
+.accommodationsbtn, .activitiesbtn {
+  text-align: right;
 }
 header {
   margin: 0px 20px;
@@ -171,18 +174,14 @@ section aside {
   display: flex;
   flex-direction: row;
 }
-.arow {
-  display: flex;
-  margin-bottom: 20px;
-}
 .accommodations {
-  width: 65%;
+  width: 100%;
   height: fit-content;
   margin-top: 0px;
   margin-left: 20px;
 }
 .accommodations {
-  padding-top: 40px;
+  padding-top: 20px;
   background-color: #ececec;
   border-radius: 20px;
 }
@@ -191,12 +190,10 @@ section aside {
   line-height: .5;
 }
 .column {
-  width: 29%;
+  width: 100%;
   height: 220px;
   background-color: white;
   padding: 4px;
-}
-.column {
   border-radius: 20px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
   transition: box-shadow 0.5s ease-in-out;
@@ -211,12 +208,9 @@ section aside {
   border-top-right-radius: 20px;
 }
 .columns {
-  display: flex;
-  flex-wrap: wrap;
-}
-.columns {
   margin: 10px 25px 40px 35px;
   gap: 30px;
+  width: 30%;
 }
 a {
   text-decoration: none;
@@ -240,12 +234,17 @@ section {
   align-content: space-around;
 }
 aside {
-  background-color: #ececec;
-  border-radius: 20px;
+  order: 2;
+  width: 300px;
+}
+.arow {
+  display: flex;
+  flex-flow: row;
 }
 aside {
+  background-color: #ececec;
+  border-radius: 20px;
   margin-left: 15px;
-  margin-right: 40px;
   margin-right: 15px;
 }
 .sectiont {
@@ -287,14 +286,11 @@ aside {
   gap: 10px;
 }
 .popaside {
-  height: 140px;
   background-color: white;
   border-radius: 20px;
   display: flex;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
   border: white solid 4px;
-}
-.popaside {
   margin: 5px 0px 10px 9px;
   box-shadow: none;
 }
@@ -386,7 +382,7 @@ ul.text {
   letter-spacing: .5px;
   margin: 2em;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 380px) {
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -410,54 +406,7 @@ ul.text {
   }
   nav ul {
     padding-left: 0px;
-  }
-  .arow {
-    display: flex;
-    flex-flow: column;
-  }
-  .accommodationsbtn {
-    border-top: none;
-    border-bottom: #0065fc solid 2px; 
-    left: 0px;     
-  }
-  .activitiesbtn {
-    border-top: none;
-    border-bottom: #f3f3f3 solid 2px;
-    right: 0px;
-  }
-  .accommodationsbtn,
-  .activitiesbtn {
-    width: 50%;
-    margin: 0px;
-    text-align: center;
-    bottom: 0px;
-    position: absolute;
-  }
-  .accommodations {
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-  }
-  .accommodations h3 {
-    font-size: 20px;
-    margin-left: -20px;
-  }
-  .columns {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 9px;
-    gap: 15px;
-
-  }
-  .column {
-    width: 350px;
-    padding-bottom: 10px;
-  }
-  aside {
-    width: 475px;
-    margin-left: -20px;
-    border-radius: 0px;
-  }
+}
   .popsaside {
       gap: 10px;
     }
@@ -476,12 +425,8 @@ ul.text {
     margin-bottom: 40px;
   }
   .box {
-    width: 200px;
+    width: 100%;
     height: 150px;
-  }
-  .container {
-    display: flex;
-    flex-direction: column;
   }
   .col {
     max-width: 88%;
@@ -492,7 +437,6 @@ ul.text {
     order: 1;
   }
   .card {
-    width: 360px;
     margin-left: 17px;
   }
   form i:last-child {
@@ -511,11 +455,8 @@ ul.text {
     margin-left: 9px;
   }
   .popaside {
-    width: 370px;
     margin-left: 21px;
   }
-}
-@media only screen and (min-width: 767px) {
   .mb-sm-0 {
     margin-bottom: 0;
   }
@@ -525,4 +466,47 @@ ul.text {
   .flex-direction-sm-row {
     flex-flow: row;
   }
+}
+@media only screen and (max-width: 1040px) {
+  .accommodationsbtn {
+    border-top: none;
+    border-bottom: #0065fc solid 2px; 
+    left: 0px;     
+  }
+  .activitiesbtn {
+    border-top: none;
+    border-bottom: #f3f3f3 solid 2px;
+    right: 0px;
+  }
+  .accommodationsbtn,
+  .activitiesbtn {
+    width: 50%;
+    margin: 0px;
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+  }
+.accommodations {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.accommodations h3 {
+  font-size: 20px;
+  margin-left: -20px;
+}
+.columns {
+  flex-direction: column;
+  margin: 0px 9px;
+  gap: 15px;
+}
+.column {
+  width: 33.333333333%;
+  padding-bottom: 10px;
+}
+aside {
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 0px;
+}
 }
