@@ -374,7 +374,7 @@ ul.text {
   letter-spacing: .5px;
   margin: 2em;
 }
-@media only screen and (min-width: 678px) and (max-width: 1211px) {
+@media only screen and (min-width: 378px) and (max-width: 1411px) {
   .accommodations {
     height: fit-content;
     margin-right: 15px;
@@ -448,9 +448,8 @@ ul.text {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1078px) {
   nav {
-    order: 1;
     display: flex;
     flex-wrap: wrap;
     margin: 0px;
