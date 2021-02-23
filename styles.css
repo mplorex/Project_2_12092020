@@ -15,6 +15,7 @@ h6  {
 }
 h4, p {
     color: black;
+  
   }
 h4 {
   padding-top: 5px;
@@ -63,7 +64,6 @@ a {
 }
 header {
   margin: 0px 20px;
-  padding-top: 70px;
 }
 header h3 {
   padding: 0px;
@@ -186,6 +186,7 @@ section aside {
 }
 .column {
   width: 29%;
+  min-width: 200px;
   height: 200px;
   background-color: white;
   padding: 4px;
@@ -201,11 +202,11 @@ section aside {
   margin-bottom: -20px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding: 3px;
 }
 .columns {
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
   margin: 10px 25px 40px 35px;
   gap: 30px;
 }
@@ -230,15 +231,13 @@ a {
 section {
   align-content: space-around;
 }
-aside {
-  order: 2;
-  width: 400px;
-}
 .arow {
   display: flex;
   flex-flow: row;
 }
 aside {
+  order: 2;
+  width: 400px;
   background-color: #ececec;
   border-radius: 20px;
   margin-left: 15px;
@@ -277,6 +276,7 @@ aside {
   margin: 0px 10px 15px 10px;
 }
 .popaside {
+  min-width: 300px;
   height: 140px;
   background-color: white;
   border-radius: 20px;
@@ -382,7 +382,7 @@ ul.text {
   }
   .popsaside {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
     margin-left: 21px;
     }
@@ -390,10 +390,10 @@ ul.text {
     width: 95%;
   }
   .sectiont {
-    margin: 15px 0px 15px 20px;
+    margin: 15px 0px 15px 0px;
   }
   .popaside {
-    width: 30%;
+    width: 90%;
     height: 107px;
     margin: 5px 0px 10px 9px;
     box-shadow: none;
@@ -405,8 +405,7 @@ ul.text {
     margin-bottom: 10px;
   }
   .d-flex {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: -10px;
   }
   .col {
     margin-bottom: 40px;
@@ -440,6 +439,9 @@ ul.text {
   .mr-sm-1 {
     margin-right: 15px;
   }
+  .mb-1 {
+    margin-bottom: 25px;
+  }
   .flex-direction-sm-row {
     flex-flow: row;
   }
@@ -448,7 +450,7 @@ ul.text {
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 1078px) {
+@media only screen and (max-width: 678px) {
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -512,6 +514,7 @@ ul.text {
 }
 .column {
   display: flex;
+
   width: 100%;
   padding-bottom: 10px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
