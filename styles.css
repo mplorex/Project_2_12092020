@@ -238,6 +238,7 @@ section {
 aside {
   order: 2;
   width: 400px;
+  height: 100%;
   background-color: #ececec;
   border-radius: 20px;
   margin-left: 15px;
@@ -454,7 +455,7 @@ ul.text {
   nav {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px;
+    margin: 30px;
     position: relative;
     height: 120px;
   }
