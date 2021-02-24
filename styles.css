@@ -516,7 +516,7 @@ ul.text {
 }
 .column {
   display: flex;
-  width: 350px;
+  width: 365px;
   padding-bottom: 10px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
@@ -555,7 +555,7 @@ aside {
   object-fit: cover;
   display: flex;
   flex-flow: column;
-  width: 400px;
+  width: 420px;
 }
 .arow {
   display: flex;
