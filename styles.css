@@ -238,7 +238,6 @@ section {
 aside {
   order: 2;
   width: 400px;
-  height: 100%;
   background-color: #ececec;
   border-radius: 20px;
   margin-left: 15px;
@@ -392,6 +391,8 @@ ul.text {
   }
   .sectiont {
     margin: 15px 0px 15px 0px;
+  }
+  aside {
   }
   .popaside {
     width: 90%;
