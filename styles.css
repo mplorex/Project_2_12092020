@@ -26,12 +26,9 @@ h4 b {
 p {
   font-size: 13px;
 }
-nav {
-  margin: 0px 40px;
-}
 nav img {
   float: left;
-  margin-left: -25px;
+  margin: 10px;
 }
 nav ul {
   float: right;
@@ -454,9 +451,9 @@ ul.text {
   nav {
     display: flex;
     flex-wrap: wrap;
-    margin: 30px;
     position: relative;
     height: 120px;
+    margin: 30px;
   }
   .signup {
     position: absolute;
