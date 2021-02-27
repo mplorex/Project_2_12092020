@@ -381,7 +381,6 @@ ul.text {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 21px;
     }
   .sectiontaside {
     width: 95%;
@@ -513,7 +512,7 @@ ul.text {
 }
 .column {
   display: flex;
-  width: 365px;
+  width: 380px;
   padding-bottom: 10px;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
 }
@@ -552,7 +551,7 @@ aside {
   object-fit: cover;
   display: flex;
   flex-flow: column;
-  width: 420px;
+  width: 435px;
 }
 .arow {
   display: flex;
