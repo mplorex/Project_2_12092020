@@ -234,6 +234,7 @@ section {
 aside {
   order: 2;
   width: 400px;
+  height: 630px;
   background-color: #ececec;
   border-radius: 20px;
   margin-left: 15px;
