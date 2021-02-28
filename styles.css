@@ -453,7 +453,6 @@ ul.text {
     flex-wrap: wrap;
     position: relative;
     height: 120px;
-    margin: 30px;
   }
   .signup {
     position: absolute;
