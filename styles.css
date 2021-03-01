@@ -72,6 +72,11 @@ header h6 {
   margin: 0px;
   padding: 0px;
 }
+i.f1 {
+  width: 30px; 
+  height: 28.5px; 
+  text-align: center; 
+}
 form {
   margin-top: 8px;
   height: 40px;
