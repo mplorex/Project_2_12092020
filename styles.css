@@ -72,6 +72,9 @@ header h6 {
   margin: 0px;
   padding: 0px;
 }
+i.f1.fas.fa-map-marker-alt {
+  font-size: 24px;
+}
 i.f1 {
   width: 30px; 
   height: 28.5px; 
