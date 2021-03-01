@@ -288,6 +288,7 @@ aside {
   display: flex;
   box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
   border: white solid 4px;
+  cursor: pointer;
   margin: 5px 0px 10px 9px;
 }
 .popaside:hover {
